@@ -88,3 +88,4 @@
 #         self.age=age
 # a=person("laimonas",23) ## prisikirimas
 # print(a.name,a.age) #kvietimas
+ar uztenka git push?
