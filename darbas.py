@@ -67,3 +67,4 @@ print(True and False)# false
 print(False and False)#false
 print(True and True)#true
 
+#kriste yra labai grazziziziziziziziiziz
