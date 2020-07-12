@@ -32,6 +32,7 @@
 # #listo kurimas,panaudojimas
 # musu_listas=["vienas","du","trys","keturi"]
 # print(musu_listas[0])
+## listai turi funkcijas. append(prideda elementa i gala),clear(),copy(),extend(),pop(),remove()...arrays method
 #
 # # for ciklas kurimas / range funkcija
 # for i in range(1,10,2): # pirmas skaicius nuo, antras iki (ne imtinai "9" , tarpas tarp skaicius(jei reikia)
@@ -80,5 +81,10 @@
 # # skaiciu suapvalinimas
 # a=10.15412
 # print(f"{a:.2f}") #2skaiciai po kabelio
-#
-#
+## klases kurimas,naudojimas,kvietimas,priskirimas
+# class person:
+#     def __init__(self,name,age): # argumentai kuriuos naudosim
+#         self.name=name
+#         self.age=age
+# a=person("laimonas",23) ## prisikirimas
+# print(a.name,a.age) #kvietimas
