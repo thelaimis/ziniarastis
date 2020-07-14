@@ -130,6 +130,13 @@
 
 
 
+## klaidos errorai erroru rodymas kurimas
+# raise Exception("mano sukurtas klaidos pranesimas")
+# try:
+#     listt=[]
+#     listt.appendt("labuka") #tycia darau klaida
+# except:
+#     raise  Exception("klaida listo kurime/kvietime")
 
 
 
