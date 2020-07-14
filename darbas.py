@@ -108,6 +108,15 @@
 # print(suma)
 # pabaiga=time.time()
 # print(f"laiko uztruo {pabaiga - pradzia}2f")
+## loggingas klaidu rasymas. loginimas
+# import logging
+# l=logging.getLogger("mano logeris")
+# h= logging.StreamHandler()
+# f=logging.Formatter("%(asctime)s: %(message)%s")
+# h.setFormatter(f)
+# l.addHandler(h)
+# l.setLevel(logging.INFO)
+
 
 
 
