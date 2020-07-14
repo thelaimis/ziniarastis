@@ -103,7 +103,7 @@
 #     if  i %2 != 0:
 #         skaicius=i
 #         sveikieji.append(skaicius)
-# #print(sveikieji)
+# print(sveikieji)
 # suma=sum(sveikieji)
 # print(suma)
 # pabaiga=time.time()
@@ -116,6 +116,18 @@
 # h.setFormatter(f)
 # l.addHandler(h)
 # l.setLevel(logging.INFO)
+## break / continue funkcija
+# a=0
+# while True:
+#     a += 1
+#     if a==5:
+#         break  #condinue nesustabdo o kartoja
+#     else:
+#         print("elee")
+## lamdai paduodamas skaicius ar skaiciai ir su jeis dirbama. visai kaip per def (pravercia jeigu funkcijoje galima nurodyti tik viena sk)
+# x=lambda  a,b: a*b
+# print(x(2,2))
+
 
 
 
